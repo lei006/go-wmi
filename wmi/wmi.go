@@ -301,7 +301,9 @@ func NewWMIObject(path string) (*Result, error) {
 
 // NewConnection returns a new *WMI connection, given the parameters
 func NewConnection(params ...interface{}) (*WMI, error) {
-	err := ole.CoInitializeEx(0, ole.COINIT_MULTITHREADED)
+	// 如果调用了其它的OLE，则会报错
+	//err := ole.CoInitializeEx(0, ole.COINIT_MULTITHREADED)
+	err := ole.CoInitialize(0)
 	if err != nil {
 		oleerr := err.(*ole.OleError)
 		// CoInitialize already called

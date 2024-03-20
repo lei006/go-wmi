@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gabriel-samfira/go-wmi/utils"
-	"github.com/gabriel-samfira/go-wmi/wmi"
+	"github.com/lei006/go-wmi/utils"
+	"github.com/lei006/go-wmi/wmi"
 	"github.com/pkg/errors"
 )
 

@@ -1,4 +1,4 @@
-module github.com/gabriel-samfira/go-wmi
+module github.com/lei006/go-wmi
 
 go 1.13
 

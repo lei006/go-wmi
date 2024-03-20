@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/gabriel-samfira/go-wmi/utils"
-	"github.com/gabriel-samfira/go-wmi/wmi"
+	"github.com/lei006/go-wmi/utils"
+	"github.com/lei006/go-wmi/wmi"
 
 	"github.com/go-ole/go-ole"
 	"github.com/pkg/errors"

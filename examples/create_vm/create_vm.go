@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	vm "github.com/gabriel-samfira/go-wmi/virt/vm"
+	vm "github.com/lei006/go-wmi/virt/vm"
 )
 
 func errExit(err error) {
